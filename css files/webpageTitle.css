@@ -1,0 +1,266 @@
+body{
+    position: relative;
+    background-color: #DFF6FF;
+}
+
+div{
+    margin-bottom: 15px;
+}
+
+.wt_header{
+    display: inline-block;
+    padding: 5px;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#rt_stuff{
+    position: absolute;
+    right: 5%;
+}
+
+/* hr{
+    border: 0.5px solid black;
+} */
+
+/*newsletterTitle*/
+#heading-1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+#heading-2{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 90px;
+    margin-top: 10px;
+    font-family: 'Rochester', cursive;
+    font-weight: 100;
+}
+
+#welcome-message{
+    font-family: 'Babylonica', cursive;
+    font-size: 48px;
+    color: grey;
+    text-align: center;
+    margin-top: 5px;
+    transform: rotate(-10deg);
+    font-weight: 100;
+}
+
+/*cheeryArticle*/
+.cheeryArticle{
+    display: flex;
+    padding: 10px;
+    
+}
+.ca-img{
+    width: max-content;
+    display: inline-block;
+}
+
+#ca-fline {
+    font-family: 'Abel', sans-serif;
+    /* display: inline-block; */
+    /* margin-left: 850px; */
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+#ca-img{
+    /* display: inline-block; */
+    width: 80%;
+    /* float: left; */
+    height: 745.219px;
+    display: inline-block;
+}
+
+#ca-sline{
+    /* display: inline-block; */
+    /* margin-left: 850px; */
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Rochester', cursive;
+    margin-top: 10px;
+}
+
+#ca-content{
+    width: 500px;
+    /* display: inline-block; */
+    /* margin-left: 850px; */
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*DoJMA Updates*/
+.DoJMA-Updates{
+    padding: 10px;
+    /* text-align: left; */
+    display: flex;
+}
+
+.du-text{
+    width: 60%;
+    margin: 25px;
+}
+
+.du-img{
+    margin: 25px;
+}
+
+#du-fline{
+    font-family: 'Rochester', cursive;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+#du-content{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+#du-sline{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+#du-img{
+    /* float: right; */
+    height: 100%;
+}
+
+/*ourLatestClientProject*/
+.OLCP{
+    text-align: center;
+}
+
+#olcp-fline{
+    font-size: 70px;
+    font-weight: 400;
+    font-family: 'Rochester', cursive;
+    margin-bottom: 10px;
+}
+
+#olcp-sline{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#olcp-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#olcp-img{
+    height: 550px;
+    width: 70%;
+    margin: auto;
+}
+
+button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-family: 'Abel', sans-serif;
+  border-radius: 6px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 45%;
+}
+
+button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+/*more Actions*/
+.ma{
+    display: flex;
+    justify-content: center;
+}
+
+.ma-card{
+    margin: 10px;
+    text-align: center;
+    width: fit-content;
+}
+
+.ma-content{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 600px;
+    margin-left: 15%;
+
+}
+
+.ma-img{
+    /* width: 50%; */
+    width: ;
+}
+
+.ma-fline{
+    font-size: 70px;
+    font-family: 'Rochester', cursive;
+    font-weight: 400;   
+}
+
+.ma-sline{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+/*small article*/
+.sa-part{
+    display: flex;
+    justify-content: center;
+}
+
+.sa-fline{
+    font-size: 70px;
+    font-family: 'Rochester', cursive;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.sa-sline{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+.sa-content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 80%;
+}
+
+.sa-img{
+    width: 400px;
+    margin: 5%;
+    height: 500px;
+    margin-top: 15px;
+}
+
+.sa-text{
+    /* text-align: center; */
+    margin-bottom: 0;
+    margin-left: 50px;
+}

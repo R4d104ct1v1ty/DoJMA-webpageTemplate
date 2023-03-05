@@ -55,34 +55,37 @@ div{
 /*cheeryArticle*/
 .cheeryArticle{
     /* display: inline-block; */
-    display: flex;
+    /* display: flex; */
     padding: 10px;
+    text-align: center;
     
 }
 
 
 
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 820px){
     .ca-img{
-        width: 50%;
-        display: inline-block;
-        /* float: left; */
-        min-height: 100%;
+        /* width: 50%; */
+        /* display: inline-block; */
+        float: left;
+        /* min-height: 100%; */
+        margin: 50px;
     }
     .ca-text{
-        text-align: center;
-        width: 50%;
+        text-align: justify;
+        /* width: 50%; */
         /* float: left; */
-        height: 100%;
+        /* height: 100%; */
+        margin: 50px;
     }
 
     #ca-img{
         /* display: inline-block; */
-        width: 100%;
+        /* width: 100%; */
         /* float: left; */
-        height: 100%;
-        display: inline-block;
+        /* height: 100%; */
+        /* display: inline-block; */
         /* min-width: 420px; */
     }
     #ca-fline {
@@ -101,16 +104,17 @@ div{
         margin-top: 10px;
     }
     #ca-content{
-        width: 60%;
+        /* width: 60%; */
         /* display: inline-block; */
         /* margin-left: 850px; */
         font-size: calc(10px + 0.64vw);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: auto;
+        text-align: left;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 820px) {
     .cheeryArticle {
         flex-direction: column;
     }
@@ -150,7 +154,7 @@ div{
     display: flex;
 }
 
-@media screen and (min-width: 650px){
+@media screen and (min-width: 820px){
     .du-text{
         width: 60%;
         margin: 25px;
@@ -229,7 +233,7 @@ div{
     
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 820px){
     .DoJMA-Updates{
         flex-direction: column;
     }
@@ -304,9 +308,10 @@ div{
 }
 
 #olcp-img{
-    height: 550px;
+    height: 20%;
     width: 70%;
     margin: auto;
+    margin-top: 50px;
 }
 
 button{
@@ -342,7 +347,7 @@ button:focus {
 }
 
 .ma-card{
-    margin: 10px;
+    margin: 5%;
     text-align: center;
     width: fit-content;
     width: 30%;
@@ -401,5 +406,5 @@ button:focus {
     margin-top: 5px;
     /* width: 80%; */
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
